@@ -1,0 +1,37 @@
+<!-- {{htmlWebpackPlugin.options.warning}} -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="container">
+      <div id=="nav"></div>
+      <div id="app">Loading...</div>
+    </div>
+        <!-- https://github.com/zendesk/zendesk_app_framework_sdk -->
+        <script
+        type="text/javascript"
+        src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js" >
+        </script>
+
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js" >
+        </script>
+
+        <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous">
+        </script>
+
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js" >
+        </script>
+        <script type="text/javascript">
+          var client = ZAFClient.init();
+        </script>
+  </body>
+</html>

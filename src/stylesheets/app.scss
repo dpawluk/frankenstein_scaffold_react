@@ -1,0 +1,18 @@
+@import './ticket_sidebar.scss';
+
+body {
+  margin: 0;
+}
+
+h3 {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+
+.note {
+  color: red;
+  font-size: 85%;
+  width: 100%;
+  background: #eee;
+  padding: 5px;
+}
